@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  The Future is Agents: Automating Salesforce Tasks with Browser UI
+title:  The Future is Agents Automating Salesforce Tasks with Browser UI
 ---
+
 ![_config.yml]({{ site.baseurl }}/images/BrowserAgents/r.png)
 
 
