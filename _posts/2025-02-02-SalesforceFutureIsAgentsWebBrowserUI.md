@@ -1,8 +1,9 @@
-layout: post
-title: "The Future is Agents: Automating Salesforce Tasks with Browser UI"
 ---
+layout: post
+title:  The Future is Agents: Automating Salesforce Tasks with Browser UI
+---
+![_config.yml]({{ site.baseurl }}/BrowserAgents/1.png)
 
-![]({{ site.baseurl }}/images/BrowserAgents/1.png)
 
 The world is shifting from **apps to agents**—and Salesforce automation is no exception! Why manually navigate through the UI when you can **automate** all Salesforce tasks using **browser agents**? Whether it's **testing, DevOps, or daily operations**, browser agents can handle it all.
 
@@ -76,7 +77,8 @@ asyncio.run(open_quotes())
 
 💡 No manual clicks required! This is just the beginning—browser agents can automate ANY UI action in Salesforce. Here is the working demo. 
 
-![]({{ site.baseurl }}/images/BrowserAgents/2.gif)
+![_config.yml]({{ site.baseurl }}/images/BrowserAgents/2.gif)
+
 
 🛠️ **How This Helps in Testing & DevOps**
 
