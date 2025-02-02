@@ -2,7 +2,7 @@
 layout: post
 title:  The Future is Agents: Automating Salesforce Tasks with Browser UI
 ---
-![_config.yml]({{ site.baseurl }}/BrowserAgents/1.png)
+![_config.yml]({{ site.baseurl }}/images/BrowserAgents/r.png)
 
 
 The world is shifting from **apps to agents**—and Salesforce automation is no exception! Why manually navigate through the UI when you can **automate** all Salesforce tasks using **browser agents**? Whether it's **testing, DevOps, or daily operations**, browser agents can handle it all.
