@@ -1,9 +1,8 @@
----
 layout: post
-title:  The Future is Agents: Automating Salesforce Tasks with Browser UI
+title: "The Future is Agents: Automating Salesforce Tasks with Browser UI"
 ---
 
-![_config.yml]({{ site.baseurl }}/images/BrowserAgents/1.png)
+![]({{ site.baseurl }}/images/BrowserAgents/1.png)
 
 The world is shifting from **apps to agents**—and Salesforce automation is no exception! Why manually navigate through the UI when you can **automate** all Salesforce tasks using **browser agents**? Whether it's **testing, DevOps, or daily operations**, browser agents can handle it all.
 
@@ -21,7 +20,7 @@ With the right setup, you can:
 
 💡 **Think of agents as virtual employees who never make mistakes and work 24/7.**
 
-![_config.yml]({{ site.baseurl }}/images/BrowserAgents/2.png)
+![]({{ site.baseurl }}/images/BrowserAgents/3.png)
 
 ## 🔨 Building a Simple Salesforce Browser Agent
 
@@ -67,7 +66,6 @@ async def open_quotes():
 
 # Run the function
 asyncio.run(open_quotes())
-
 ```
 
 ✅ **What This Script Does**
@@ -78,7 +76,7 @@ asyncio.run(open_quotes())
 
 💡 No manual clicks required! This is just the beginning—browser agents can automate ANY UI action in Salesforce. Here is the working demo. 
 
-![_config.yml]({{ site.baseurl }}/images/BrowserAgents/3.png)
+![]({{ site.baseurl }}/images/BrowserAgents/2.gif)
 
 🛠️ **How This Helps in Testing & DevOps**
 
@@ -98,7 +96,7 @@ Browser agents are game-changers for Salesforce testing and deployment automatio
 
 💡 Agents + DevOps = Fully Automated Salesforce Deployments.
 
-![_config.yml]({{ site.baseurl }}/images/BrowserAgents/4.png)
+![]({{ site.baseurl }}/images/BrowserAgents/4.png)
 
 🌍 **The World is Now Agents, Gone Are the Apps**
 
@@ -122,9 +120,8 @@ Want to automate more Salesforce tasks?
 
 Happy Automating! 🤖
 
+## **References (Web UI/Browser Automation)**
 
-**References (Web UI/Browser Automation)**
+* **browser-use (Core Library):** This repository provides the core functionality for building and using browser agents. It's essential for understanding the underlying mechanisms. [browser-use GitHub](https://github.com/browser-use/browser-use)
 
-* **browser-use (Core Library):** This repository provides the core functionality for building and using browser agents.  It's essential for understanding the underlying mechanisms. [https://github.com/browser-use/browser-use](https://github.com/browser-use/browser-use)
-
-* **web-ui (Salesforce UI Interactions):** This repository likely provides specific tools and utilities for interacting with the Salesforce web UI, building upon the core `browser-use` library. [https://github.com/browser-use/web-ui](https://github.com/browser-use/web-ui)
+* **web-ui (Salesforce UI Interactions):** This repository provides specific tools and utilities for interacting with the Salesforce web UI, building upon the core `browser-use` library. [web-ui GitHub](https://github.com/browser-use/web-ui)
