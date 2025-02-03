@@ -33,40 +33,40 @@ To demonstrate **Salesforce UI automation**, let’s **log in, search for "Quote
 import asyncio
 import os
 from dotenv import load_dotenv
-from playwright.async_api import async_playwright
+from langchain_openai import ChatOpenAI
+from browser_use import Agent
 
 # Load environment variables
 load_dotenv()
 
+# Get credentials
 SF_USERNAME = os.getenv("SF_USERNAME")
 SF_PASSWORD = os.getenv("SF_PASSWORD")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-async def open_quotes():
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)
-        page = await browser.new_page()
+async def main():
+    if not SF_USERNAME or not SF_PASSWORD:
+        print("Error: Environment variables not loaded correctly.")
+        return
 
-        # Step 1: Log into Salesforce
-        await page.goto("https://login.salesforce.com")
-        await page.fill("#username", SF_USERNAME)
-        await page.fill("#password", SF_PASSWORD)
-        await page.click("#Login")
-        await page.wait_for_load_state("networkidle")
+    agent = Agent(
+        task=(
+            f"1. Open https://login.salesforce.com\n"
+            f"2. Enter username: {SF_USERNAME}\n"
+            f"3. Enter password: {SF_PASSWORD}\n"
+            f"4. Click the 'Login' button\n"
+            f"5. Navigate to the Quotes tab\n"
+            f"6. Click 'New' to create a quote\n"
+            f"7. Save the quote\n"
+        ),
+        llm=ChatOpenAI(model="gpt-3.5-turbo", api_key=OPENAI_API_KEY)
+    )
 
-        # Step 2: Open App Launcher
-        await page.click("button[title='App Launcher']")
-        
-        # Step 3: Search and open "Quotes"
-        await page.fill("input[placeholder='Search apps and items...']", "Quotes")
-        await page.wait_for_timeout(2000)
-        await page.click("a[title='Quotes']")
+    result = await agent.run()
+    print(result)
 
-        print("✅ Successfully opened Quotes in Salesforce!")
-        await page.wait_for_timeout(5000)
-        await browser.close()
+asyncio.run(main())
 
-# Run the function
-asyncio.run(open_quotes())
 ```
 
 ✅ **What This Script Does**
