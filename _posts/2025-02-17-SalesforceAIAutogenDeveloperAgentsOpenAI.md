@@ -255,7 +255,7 @@ How It Works
 4.  **Code Execution**: Upon user approval, the executor agent runs the code and displays the results.
     
 
-![_config.yml]({{ site.baseurl }}/images/aiagent/3.png)
+![_config.yml]({{ site.baseurl }}/images/aiagent/3.jpg)
 
 This architecture ensures that users can automate Salesforce development tasks efficiently, reducing manual effort and the potential for errors.
 
