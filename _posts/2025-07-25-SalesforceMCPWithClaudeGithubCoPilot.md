@@ -34,7 +34,7 @@ Setup
 
 * Install the Salesforce MCP Server
 ```
-bashnpm install -g @tsmztech/mcp-server-salesforce
+npm install -g @tsmztech/mcp-server-salesforce
 ```
 * Downaload and Configure Claude Desktop
   Edit claude_desktop_config.json:
@@ -66,19 +66,16 @@ Here is the demo creating a quote:
     
 Key Technical Advantages
 ------------------------
-* Intelligent Tool Selection
-* The AI automatically chooses appropriate tools from the 7 available Salesforce MCP server functions without explicit instruction.
-* Dynamic Authentication
-* Even without hardcoded credentials, the system can leverage existing SFDX authentication from VS Code, demonstrating flexible auth handling.
-* Context-Aware Analysis
-* The AI provides unsolicited but relevant business insights based on data patterns it discovers, going beyond simple data retrieval.
+* **Intelligent Tool Selection** - The AI automatically chooses appropriate tools from the 7 available Salesforce MCP server functions without explicit instruction.
+* **Dynamic Authentication** - Even without hardcoded credentials, the system can leverage existing SFDX authentication from VS Code, demonstrating flexible auth handling.
+* **Context-Aware Analysis** - The AI provides unsolicited but relevant business insights based on data patterns it discovers, going beyond simple data retrieval.
 
 Few potential use cases
 ------------------------
-* *Data Retrieval*: Contact and opportunity listings
-* *Business Analysis*: ACV calculations and pipeline insights
-* *Strategic Recommendations*: Actionable sales management advice
-* *Contextual Intelligence*: Contract renewal identification
+* **Data Retrieval**: Contact and opportunity listings
+* **Business Analysis**: ACV calculations and pipeline insights
+* **Strategic Recommendations**: Actionable sales management advice
+* **Contextual Intelligence**: Contract renewal identification
 
 Conclusion
 ------------------------
@@ -88,4 +85,4 @@ The convergence of conversational AI and enterprise data platforms represents mo
 
 Huge Kudos to tsmztech for putting this together, check out the full MCP [GitHub repository](https://github.com/tsmztech/mcp-server-salesforce).
 
-Keywords: #SFDCBrewery #Claude #Agentforce #MCP #Salesforce #Gtihubcopilot #SriharideepKolagani #SalesforceDX #SalesforceDevelopment #Salesforce #SFDCBrewery #Brewery #SalesforceOnlineTraining #SalesforceTutorials #SalesforceCertification 
+Keywords: #SFDCBrewery #Claude #Agentforce #MCP #Salesforce #Githubco-pilot #SriharideepKolagani #SalesforceDX #SalesforceDevelopment #Salesforce #SFDCBrewery #Brewery #SalesforceOnlineTraining #SalesforceTutorials #SalesforceCertification 
