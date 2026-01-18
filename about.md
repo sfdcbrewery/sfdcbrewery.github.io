@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ![_config.yml]({{ site.baseurl }}/images/me.jpg)
 
-## Sri Kolagani
+## Sri Hari Deep Kolagani
 # Director of CRM Engineering, Elastic | AI & Enterprise Architecture Researcher | Salesforce Application Architect
 
 I am the Director of CRM Engineering at Elastic, where I lead distributed engineering teams to deliver scalable enterprise solutions that support Sales, Service, Marketing, and Partner Operations. Based in Dallas, Texas, I specialize in optimising CRM platforms and driving the adoption of emerging technologies, including agentic AI and Agentforce, to enhance operational effectiveness. Prior to Elastic, I served as a Senior Member of Technical Staff and Engineering Manager at Salesforce, contributing to internal scrum teams that facilitated scaling for global business customers. My technical journey began as a freelancer and evolved through key roles at major organisations such as Western Union, Intuitive Surgical, and Hitachi Vantara.
