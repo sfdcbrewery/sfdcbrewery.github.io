@@ -2,11 +2,11 @@
 layout: post
 title:  "User-Built Intelligence: Meet Jin Yang – My OpenClaw Salesforce Assistant"
 ---
-![_config.yml]({{ site.baseurl }}/images/oc/cover.jpg)
+![_config.yml]({{ site.baseurl }}/images/cover.jpg)
 
 OpenClaw matters because it gives an AI model its own computer and a mandate to act like a proactive partner. While ChatGPT waits for a prompt, OpenClaw runs 24/7 on my "spare" M1 MacBook (8GB RAM, because resource constraints make you honest). It doesn't just know my codebase; it knows my workflow.
 
-This flips the SaaS paradigm. Traditional CRMs are *systems of record* — they capture the nouns (the data), but they're blind to the verbs (the process). OpenClaw captures the value left on the table by automating the informal workflows, triaging, and follow-ups that normally require a human in the loop.
+This flips the SaaS paradigm. Traditional CRMs are system of records — they capture the nouns (the data), but they're blind to the verbs (the process). OpenClaw captures the value left on the table by automating the informal workflows, triaging, and follow-ups that normally require a human in the loop.
 
 ## Meet Jin Yang
 
@@ -43,7 +43,7 @@ Most Salesforce automation demos lean on UI scripts. But buttons move, DOMs chan
 
 Check out a quick demo of the Telegram bot executing a Salesforce schema update and record query entirely through natural language:
 
-![_config.yml]({{ site.baseurl }}/images/oc/video.mp4)
+![_config.yml]({{ site.baseurl }}/images/oc/video.gif)
 
 ## Conclusion
 
