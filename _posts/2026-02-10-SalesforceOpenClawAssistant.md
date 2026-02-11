@@ -2,7 +2,7 @@
 layout: post
 title:  User-Built Intelligence: Meet Jin Yang – My OpenClaw Salesforce Assistant
 ---
-![_config.yml]({{ site.baseurl }}/images/oc/cover.png)
+![_config.yml]({{ site.baseurl }}/images/oc/cover.jpg)
 
 OpenClaw matters because it gives an AI model its own computer and a mandate to act like a proactive partner. While ChatGPT waits for a prompt, OpenClaw runs 24/7 on my "spare" M1 MacBook (8GB RAM, because resource constraints make you honest). It doesn't just know my codebase; it knows my workflow.
 
