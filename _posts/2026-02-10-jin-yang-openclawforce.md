@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "User-Built Intelligence: Meet Jin Yang – My OpenClaw Salesforce Assistant"
-date: 2026-02-10
-categories: [openclaw, salesforce, automation]
-tags: [OpenClaw, OpenClawforce, Salesforce, JinYang, AutonomousAgents, AIOps, SalesforceAdmin, M1Mac, MoonshotAI]
 ---
 ![_config.yml]({{ site.baseurl }}/images/oc/cover.png)
 
