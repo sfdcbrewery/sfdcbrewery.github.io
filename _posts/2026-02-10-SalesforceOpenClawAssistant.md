@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  User-Built Intelligence: Meet Jin Yang – My OpenClaw Salesforce Assistant
+title:  "User-Built Intelligence: Meet Jin Yang – My OpenClaw Salesforce Assistant"
 ---
 ![_config.yml]({{ site.baseurl }}/images/oc/cover.jpg)
 
