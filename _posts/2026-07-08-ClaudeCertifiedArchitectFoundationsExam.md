@@ -2,7 +2,7 @@
 layout: post
 title: "How I Cleared the Claude Certified Architect Foundations Exam"
 ---
-![_config.yml]({{ site.baseurl }}/images/claude/im1.png)
+![_config.yml]({{ site.baseurl }}/images/claude/im0.png)
 
 I recently cleared the **Claude Certified Architect Foundations** certification with a score of **776**, above the passing score of **720**.
 
